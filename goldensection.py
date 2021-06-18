@@ -1,11 +1,11 @@
 from sympy import *
 import numpy as np
 
-w= float(input("üzeri 4 olan terimin katsayısını girin:"))
-a= float(input("üzeri 3 olan terimin katsayısını girin:"))
-b= float(input("üzeri 2 olan terimin katsayısını girin:"))
-d= float(input("üzeri 1 olan terimin katsayısını girin:"))
-c= float(input(":"))
+w= float(input("Term coefficient with 4 power of x:"))
+a= float(input("Term coefficient with 3 power of x:"))
+b= float(input("Term coefficient with 2 power of x:"))
+d= float(input("Term coefficient with 1 power of x:"))
+c= float(input("constant term:"))
 
 x = Symbol('x')
 y = w*(x**4) + a*(x**3) + b*(x**2) + d*(x) + c
